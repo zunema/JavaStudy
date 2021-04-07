@@ -1,6 +1,7 @@
 public class triangle {
   public static void main(String[] args) {
-    for (int i = 0; i < 5; i++) {
+    int count = 10;
+    for (int i = 0; i < count; i++) {
       for (int i2 = 0; i2 < i+1; i2++) {
         System.out.print("*");
       }
